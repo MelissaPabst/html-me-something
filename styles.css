@@ -345,9 +345,10 @@
 
 
 body {
-  background-color: royalblue;
+  background-color: black;
   text-align: center;
   width: 100%;
+  color: white;
 }
 
 header {
@@ -356,16 +357,14 @@ header {
   border-top: 0.5em solid white;
   box-sizing: border-box;
   margin: 2em;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-figcaption {
-  font-size: 1em;
   
+header h1 {
+  letter-spacing: 0.25em;
 }
-
 
 .container {
   padding: 50px;
@@ -377,13 +376,14 @@ figcaption {
   line-height: 1em;
   margin-bottom: 20px;
   border-radius: 10%;
+  text-decoration: none;
 }
 
 /* resize images */
 .container img {
   max-width: 100%;
   height: auto;
-  border: 0.5em solid #000000;
+  border: 0.5em solid white;
   border-radius: 5%;
 }
 
