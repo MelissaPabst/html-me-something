@@ -382,6 +382,10 @@ article h1 {
   text-decoration: none;
 }
 
+#bgcolor {
+  background-color: transparent;
+}
+
 /* resize images */
 .container img {
   max-width: 100%;
